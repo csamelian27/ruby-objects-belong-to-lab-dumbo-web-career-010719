@@ -3,7 +3,7 @@ class Author
   attr_accessor :name
 
   def author=(author)
-    @author = Author.new()
+    author = Author.new()
   end
 
 end
